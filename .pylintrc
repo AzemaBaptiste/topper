@@ -1,0 +1,5 @@
+[MESSAGE CONTROL]
+disable=C0114,W1202,R1705
+
+[DESIGN]
+max-line-length=120

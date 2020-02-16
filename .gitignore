@@ -1,0 +1,9 @@
+# Ignore virtual env
+venv/
+
+# IDE
+.idea/
+
+# Python
+**/__pycache__/
+.coverage

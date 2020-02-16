@@ -1,0 +1,3 @@
+include topper/resources/*.json
+include topper/utils
+exclude topper/tests
