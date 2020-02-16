@@ -1,3 +1,5 @@
+![Python package](https://github.com/AzemaBaptiste/topper/workflows/Python%20package/badge.svg)
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Emojione_1F3A9.svg" height="80" />
 
 Topper 
