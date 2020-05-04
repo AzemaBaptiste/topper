@@ -23,6 +23,6 @@ install: build clean
 	pip install -r requirements.txt
 	python setup.py install
 
-deploy-pip:
+deploy-pip: install
 	pip install twine
-	twine upload --skip-existing dist/*
+	twine upload -u bameza -p ${PYPI_PWD} --skip-existing dist/*

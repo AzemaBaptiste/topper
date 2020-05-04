@@ -4,7 +4,7 @@ setup(
     name='topper',
     author='Baptiste Azéma',
     author_email='baptiste@azema.tech',
-    version='1.0.1',
+    version='1.1.0',
     packages=['topper', 'topper.utils'],
     package_data={'topper.resources': ['*.json']},
     include_package_data=True,
@@ -13,5 +13,6 @@ setup(
     entry_points={
         'console_scripts': ['topper=topper.__main__:main']
     },
-    long_description=open('README.md').read()
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown'
 )
