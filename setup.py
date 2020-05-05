@@ -4,7 +4,7 @@ setup(
     name='topper',
     author='Baptiste Azéma',
     author_email='baptiste@azema.tech',
-    version='1.1.0',
+    version='1.1.1',
     packages=['topper', 'topper.utils'],
     package_data={'topper.resources': ['*.json']},
     include_package_data=True,
