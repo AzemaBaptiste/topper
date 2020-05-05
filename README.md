@@ -1,4 +1,5 @@
-![Python package](https://github.com/AzemaBaptiste/topper/workflows/Python%20package/badge.svg)
+![Python package](https://github.com/AzemaBaptiste/topper/workflows/Python%20package/badge.svg) 
+[![PyPI version](https://badge.fury.io/py/topper.svg)](https://badge.fury.io/py/topper)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Emojione_1F3A9.svg" height="80" />
 
@@ -62,9 +63,7 @@ Python >= 3.6
 
 #### Installation
 
-    virtualenv -p python3 venv
-    source venv/bin/activate
-    make install
+    pip install topper
 
 Display usage
     
@@ -76,6 +75,12 @@ Display usage
 
 #### Development
     
+    # Install
+    virtualenv -p python3 venv
+    source venv/bin/activate
+    make install
+    
+    # Build
     make test # coverage tests
     make linter # runs pylint
     make build
