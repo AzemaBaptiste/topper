@@ -9,7 +9,7 @@ def get_logger(name):
     """
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s:%(levelname)s:%(name)s: %(message)s",
-                        datefmt='%Y-%m-%d_%H:%M:%S',)
+                        datefmt='%Y-%m-%d_%H:%M:%S', )
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
     return logger

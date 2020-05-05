@@ -152,7 +152,7 @@ class TestFolderReader(unittest.TestCase):
         mock_files = [Path('listen-{}.log'.format(three_days_ago_str), is_a_file=True),
                       Path('listen-{}.log'.format(two_days_ago_str), is_a_file=True)]
         with patch('pathlib.Path.iterdir', return_value=mock_files), \
-                patch('topper.file_io.FileReader.move_file_archive', return_value=None) as mock_archive, \
+             patch('topper.file_io.FileReader.move_file_archive', return_value=None) as mock_archive, \
                 patch("pathlib.Path.is_dir", return_value=True):
             self.folder_reader.archive_old_files(3)
 
